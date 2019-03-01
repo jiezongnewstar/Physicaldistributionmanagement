@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="fullWindow" parent="AppTheme">
+        <item name="actionBarStyle">@style/Theme.AppCompat.DayNight.NoActionBar</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="homeStyle" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="toolbarStyle" parent="AppTheme">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:actionBarSize">18dp</item>
+
+    </style>
+
+
+</resources>

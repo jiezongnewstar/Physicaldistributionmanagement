@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressbar">
+        <attr name="in_circle_color" format="color" />
+    </declare-styleable>
+
+        <declare-styleable name="AnimateText">
+            <attr name="time" format="integer" />
+            <attr name="annimaStart" format="boolean" />
+            <attr name="isNumber" format="boolean" />
+            <attr name="changeCount" format="integer" />
+        </declare-styleable>
+
+</resources>
+
+
